@@ -11,12 +11,12 @@ function AccountItem() {
         <div className={cx('wrapper')}>
             <img className={cx('avatar')} src="https://p9-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c72f426a7f29c7265c71a6551b40ed6f~c5_300x300.webp?x-expires=1653494400&x-signature=wRqrGhWYG3bPUC5YqlYGzBccDLc%3D" alt="Hoa"/>
             <div className={cx('info')}>
-                <p className={cx('name')}>
+                <h4 className={cx('name')}>
                     <span>
                         Nguyen Van A
                     </span>
-                    <FontAwesomeIcon icon= { faCheckCircle } />
-                </p>
+                    <FontAwesomeIcon className={cx('check')} icon= { faCheckCircle } />
+                </h4>
                 <span className={cx('username')}>nguyenvana</span>
             </div>
         </div>
